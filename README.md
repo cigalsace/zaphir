@@ -1,9 +1,3 @@
-zaphir
-======
-
-**La branche master de Zaphir correspond à la version 1.07.**
-**La branche 1.08 de Zaphir est la branche de développement.**
-
 # Zaphir
 
 Cette application permet de générer un fichier de métadonnées au format d'échange XML conforme à la directive européenne INSPIRE et aux recommandations nationales, à partir d'un fichier Excel "Elexire" (cf. "un fichier Excel pour décrire vos données géographiques").
@@ -16,6 +10,10 @@ Pour plus d'information sur l'historique des versions et son évolution, cf. fic
   - La vesion 1.05 de Zaphir fonctionne avec la version 1.22 du fichier Excel.
   - La vesion 1.06 de Zaphir fonctionne avec la version 1.22 du fichier Excel pour la description des données et la version 0.01 du fichier Excel pour la description des cartes.
   - La vesion 1.07 de Zaphir fonctionne avec la version 1.23 du fichier Excel pour la description des données et la version 0.01 du fichier Excel pour la description des cartes.
+  
+**La branche master de Zaphir correspond à la version 1.07.**
+
+**La branche 1.08 de Zaphir est la branche de développement.**
 
 ## Limites et erreurs connues:
   - Zaphir 1.06 : des messages d'erreur indiquant l'absence de champs obligatoires peuvent appraître dans le fichier d'erreur, notamment lors du traitement de fichiers de description de cartes.
