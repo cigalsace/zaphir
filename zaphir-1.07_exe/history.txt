@@ -1,0 +1,178 @@
+#############
+### Zaphir ###
+#############
+
+======
+ TODO
+======
+    EVOLUTIONS:
+    - ajouter une vérification "isdigit()" sur la récupération des valeur d'identifiant pour les listes déroulantes grace à la fonction split().
+    
+    BUGS:
+    - 
+
+    A ETUDIER : 
+    - 
+    
+
+=============
+ COMPILATION
+=============    
+    - Se placer dans le dossier du script (ex.: "zaphir-1.07_src")
+    - Lancer la commande "chemin/vers/python/python.exe setup.py py2exe"
+    - Supprimer le dossier build
+    - Copier l'ensemble des fichiers sources dans le dossier "dist"
+    - Renommer et déplacer le dossier "dist"
+    
+    
+==============
+ Version 1.07
+==============
+09/04/13
+    - Suppression de MD_CntEmail et Data_CntEmail comme informations obligatoires pour les contacts. Un message d'erreur est tout de même généré en cas d'abscence de cette information.
+    - Ajout de la gestion des icones de type de fichier pour les cartes (valeur de type "MAP:PDF" dans le champ protocole).
+    - Ajout du champ "useConstraints", notamment pour la définition des conditions d'utilisation en licence ouverte. 
+
+==============
+ Version 1.06
+==============
+22/11/13
+    - Génération du XML avec InspireThemeCode en français.
+    
+==============
+ Version 1.05
+==============
+16/08/13
+    - Ajout la gestion des cellules "data_linkX_protocol" pour permettre la publication des flux WMS/WFS sur la géoplateforme CIGAL. 
+
+==============
+ Version 1.04
+==============
+12/12/12
+    - zaphir.py: Ajout d'un contrôle sur la lecture du fichier de configuration.
+    - zaphir_module.py: Récupération de l'URL du logo pour les contacts pour les données et intégration dans le XML. Penser à ajouter l'espace de nom gmx : xmlns:gmx="http://www.isotc211.org/2005/gmx" dans l'entête du XML généré.
+
+24/10/12
+    - Création de la version 1.04.
+    - Etudier la possibilité d'utiliser les coordonnées de cellules en lien avec une table de mappage, afin de pouvoir générer un fichier Excel à partir d'un XML. mis en place, mais désactivé pour le moment.
+    
+==============
+ Version 1.03
+==============
+12/12/12
+    - Ajout d'un contrôle "codespace != 'MD_URI'" pour éviter la duplication de l'identification de la fiche s'il a déjà été saisi... (cf. MDJS).
+    
+11/10/12
+    - Encodage des caractères spéciaux (&, ', "", <, >) avant écriture de chaque valeur dans le XML. Utilisation de la fonction "_encodeXML".
+
+10/10/12
+    - Ajout du champ "Description" pour les étendues temporelles.
+    - Adaptation à Exelire 1.19
+    - Correction de la liste MD_RestrictionCode (valeur "copyright" présente 2 fois entrainant un décalage).
+
+==============
+ Version 1.02
+==============
+09/10/12
+	- tkpyms_module.py: dans la liste des valeurs de la variable InspireSpecificationCode, ajout d'un identifiant 0 correspond à la valeur "Aucun test réalisé".
+    
+==============
+ Version 1.01
+==============
+26/09/12
+	- tkpyms_module.py: dans la liste des valeurs de la variable RoleCode, l'identifiant 11 correspond à author.
+
+=============
+ Version 1.0
+=============
+12/09/12
+	- L'application Tkpyms est renommée "Zaphir" et passe en version 1.0 pour la publicaton sur le site internet CIGAL (reprise du nommage dans le code et compilation d'une nouvelle version de l'application).
+	- Intégration du XSL "XSL_CIGAL_onglets_0.4_120627" dans Zaphir 1.0.
+
+	
+==============
+ Version 0.18
+============== 
+03/07/12
+    - tkpyms_module.py: dans la liste des valeurs de la variable RoleCode, l'identifiant 7 correspond à pointOfContact.
+    
+==============
+ Version 0.17
+============== 
+27/06/12
+    - tkpyms_module.py: gestion des listes de valeurs grace à un identifiant (adapté aux modification effectuées sur le fichier XLS 1.17.
+
+26/06/12
+    - tkpyms_module.py: adaptation du code aux principes définis dans le guide de saisie V0.12 et le fichier XLS 1.16.
+    
+==============
+ Version 0.16
+============== 
+16/04/12
+    - tkpyms_module.py: déplacement de la balise <gmd:resourceMaintenance> relative à Data_MaintenanceFrequency entre les balises <gmd:identificationInfo> et <gmd:pointOfContact>.
+    Cf. http://www.schemacentral.com/sc/niem21/t-gmd_MD_DataIdentification_Type.html
+    
+    
+==============
+ Version 0.15
+============== 
+27/03/12
+    - tkpyms_module.py: si la date de la fiche n'est pas renseignée (dateStamp), la date du jour est utilisée.
+    
+==============
+ Version 0.14
+============== 
+05/03/12
+    - Ajout de "XSL-CIGAL_0.4_120305" comme format CIGAL de référence dans "template/XSL-CIGAL".
+    
+==============
+ Version 0.13
+==============    
+29/02/12
+    - Dans "_get_xls_value", ligne 929, forcer la conversion en chaîne de caratère lorsque le type est défini à "string".
+    - Ajout de la prise en compte de l'illustration (browse graphic) lors de la génération du fichier XML.
+    
+==============
+ Version 0.12
+==============    
+12/02/12
+    - Corrections mineures.
+
+==============
+ Version 0.11
+==============
+30/01/12
+    - Dans "convert_xls2xml", création d'un fichier de log si des erreurs sont rencontrées lors de lagénération du fichier XML. Le fichier a la forme "IdentifiantFiche_erreur.txt".
+
+26/01/12
+    - Dans "convert_xls2xml" correction de bugs pour intégration des fiches générées dans Geoportal ESRI: 
+        - Ajout balise <gmd:classification> dans <gmd:MD_SecurityConstraints>.
+        - Suppression définition espace de nom "xsi:type" dans <gmd:DQ_ConformanceResult>.
+
+==============
+ Version 0.10
+==============
+25/01/12
+    - Dans "convert_xls2xml" récupération et gestion des valeurs de cellules via une fonction spécifique "_get_xls_value".
+    - Dans "convert_xls2xml" adaptation du code en tulisant "_get_xls_value" (passage de 1184 lignes de programme à 964 lignes).
+    - renommage du fichier "xls2xml.py" en "tkpyms_module.py"
+    - main: adapter le programme au nouveau nom de tkpyms_module.py
+    - Mise à jour des numéros de version et description des fichiers
+
+24/01/12
+    - Ne conserver que le module xls2xml.
+    - xls2xml: Placer le fichier du module xls2xml au niveau du fichier principal.
+    - xls2xml: Convertion de la classe "xls2xml" en fonction "convert_xls2xml".
+    - xls2xml: Dans "convert_xls2xml" remplacer la boucle de création de variables globales par la création d'un dictionnaire avec valeur des clés dynamique.
+
+
+=============
+ Version 0.9
+=============
+24/01/12
+    - xls2xml: Génération de la balise "Fournisseur" : le problème vient de l'absence de nom pour la cellule correspondante à l'email du fournisseur. Ajouter comme nom "data_cnt6_email" dans le fichier Excel v1.4 du 111121.
+    Pose la question de la gestion des champs obligatoires Inspire... (si un contact n'a pas de nom ou d'email, il n'est pas exporté via Tkpyms).
+    - xls2xml: Génération de la balise de conformité Inspire <pass> : pas de problème identifié sur la version 0.9 de Tkpyms.
+    - xls2xml: Supprimer les décimales pour Data_ScaleDenominator et Data_ScaleDistance en convertissant en entier les nombres.
+    
+    
