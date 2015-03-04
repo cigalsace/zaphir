@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="CIGAL-CUS_2011_onglets.xsl" type="text/xsl"?>
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ns3="http://www.isotc211.org/2005/gmx" xmlns:ns4="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd">
+<gmd:fileIdentifier><gco:CharacterString>FR-226-700-011-002</gco:CharacterString></gmd:fileIdentifier>
+<gmd:language><gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre">fre</gmd:LanguageCode></gmd:language>
+<gmd:characterSet><gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode></gmd:characterSet>
+<gmd:hierarchyLevel><gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode></gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName><gco:CharacterString>KERN S&#233;bastien</gco:CharacterString></gmd:individualName>
+<gmd:organisationName><gco:CharacterString>Conseil G&#233;n&#233;ral du Bas-Rhin (CG67)</gco:CharacterString></gmd:organisationName>
+<gmd:contactInfo><gmd:CI_Contact>
+<gmd:phone><gmd:CI_Telephone><gmd:voice><gco:CharacterString>388766767</gco:CharacterString></gmd:voice></gmd:CI_Telephone></gmd:phone>
+<gmd:address><gmd:CI_Address>
+<gmd:deliveryPoint><gco:CharacterString>H&#244;tel du D&#233;partement - Place du Quartier Blanc</gco:CharacterString></gmd:deliveryPoint>
+<gmd:city><gco:CharacterString>Strasbourg C&#233;dex 9</gco:CharacterString></gmd:city>
+<gmd:postalCode><gco:CharacterString>67964</gco:CharacterString></gmd:postalCode>
+<gmd:electronicMailAddress><gco:CharacterString>sebastien.kern@cg67.fr</gco:CharacterString></gmd:electronicMailAddress>
+</gmd:CI_Address></gmd:address>
+</gmd:CI_Contact></gmd:contactInfo>
+<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode></gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp><gco:Date>2013-08-13</gco:Date></gmd:dateStamp>
+<gmd:metadataStandardName><gco:CharacterString>ISO 19115/19139</gco:CharacterString></gmd:metadataStandardName>
+<gmd:metadataStandardVersion><gco:CharacterString>Cor 1:2006</gco:CharacterString></gmd:metadataStandardVersion>
+<gmd:referenceSystemInfo><gmd:MD_ReferenceSystem>
+<gmd:referenceSystemIdentifier><gmd:RS_Identifier>
+<gmd:code><gco:CharacterString>Lambert I Nord - NTF - EPSG 27561</gco:CharacterString></gmd:code>
+</gmd:RS_Identifier></gmd:referenceSystemIdentifier>
+</gmd:MD_ReferenceSystem></gmd:referenceSystemInfo>
+<gmd:referenceSystemInfo><gmd:MD_ReferenceSystem>
+<gmd:referenceSystemIdentifier><gmd:RS_Identifier>
+<gmd:code><gco:CharacterString>Lambert 93 CC48 - EPSG 3948</gco:CharacterString></gmd:code>
+</gmd:RS_Identifier></gmd:referenceSystemIdentifier>
+</gmd:MD_ReferenceSystem></gmd:referenceSystemInfo>
+<gmd:identificationInfo><gmd:MD_DataIdentification>
+<gmd:citation><gmd:CI_Citation>
+<gmd:title><gco:CharacterString>ENVIRONNEMENT : Zone Humide Remarquable - 01/01/1995 - D&#233;partement du Bas-Rhin (67)</gco:CharacterString></gmd:title>
+<gmd:date><gmd:CI_Date>
+<gmd:date><gco:Date>1995-01-01</gco:Date></gmd:date>
+<gmd:dateType><gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode></gmd:dateType>
+</gmd:CI_Date></gmd:date>
+<gmd:identifier><gmd:RS_Identifier>
+<gmd:code><gco:CharacterString>FR-226-700-011-002</gco:CharacterString></gmd:code>
+<gmd:codeSpace><gco:CharacterString>MD_URI</gco:CharacterString></gmd:codeSpace>
+</gmd:RS_Identifier></gmd:identifier>
+<gmd:identifier><gmd:RS_Identifier>
+<gmd:code><gco:CharacterString>FR-226-700-011-002</gco:CharacterString></gmd:code>
+<gmd:codeSpace><gco:CharacterString /></gmd:codeSpace>
+</gmd:RS_Identifier></gmd:identifier>
+</gmd:CI_Citation></gmd:citation>
+<gmd:abstract><gco:CharacterString>L'inventaire des zones humides remarquables a recens&#233; en 1995 des sites en les hi&#233;rarchisant selon l'int&#233;r&#234;t, l'&#233;tat de conservation, la surface, etc. occup&#233;s par des zones humides. Cet inventaire, toujours d'actualit&#233;, ne comporte cependant pas de caract&#232;re exhaustif pour le d&#233;partement. Il a recens&#233; n&#233;anmoins parmi les plus belles zones humides du Bas-Rhin.
+Donn&#233;es disponibles en licence ouverte (Etalab).</gco:CharacterString></gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName><gco:CharacterString>KERN S&#233;bastien</gco:CharacterString></gmd:individualName>
+<gmd:organisationName><gco:CharacterString>Conseil G&#233;n&#233;ral du Bas-Rhin (CG67)</gco:CharacterString></gmd:organisationName>
+<gmd:contactInfo><gmd:CI_Contact>
+<gmd:phone><gmd:CI_Telephone><gmd:voice><gco:CharacterString>388766767</gco:CharacterString></gmd:voice></gmd:CI_Telephone></gmd:phone>
+<gmd:address><gmd:CI_Address>
+<gmd:deliveryPoint><gco:CharacterString>H&#244;tel du D&#233;partement - Place du Quartier Blanc</gco:CharacterString></gmd:deliveryPoint>
+<gmd:city><gco:CharacterString>Strasbourg</gco:CharacterString></gmd:city>
+<gmd:postalCode><gco:CharacterString>67964</gco:CharacterString></gmd:postalCode>
+<gmd:electronicMailAddress><gco:CharacterString>sebastien.kern@cg67.fr</gco:CharacterString></gmd:electronicMailAddress>
+</gmd:CI_Address></gmd:address>
+<gmd:contactInstructions><ns3:FileName src="http://www.cigalsace.org/metadata/CIGAL/Logo/Logo_CG67.jpg">Logo</ns3:FileName></gmd:contactInstructions>
+</gmd:CI_Contact></gmd:contactInfo>
+<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode></gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:individualName><gco:CharacterString>SCHWAB Denis</gco:CharacterString></gmd:individualName>
+<gmd:organisationName><gco:CharacterString>Conseil G&#233;n&#233;ral du Bas-Rhin (CG67)</gco:CharacterString></gmd:organisationName>
+<gmd:contactInfo><gmd:CI_Contact>
+<gmd:phone><gmd:CI_Telephone><gmd:voice><gco:CharacterString>388766767</gco:CharacterString></gmd:voice></gmd:CI_Telephone></gmd:phone>
+<gmd:address><gmd:CI_Address>
+<gmd:deliveryPoint><gco:CharacterString>H&#244;tel du D&#233;partement - Place du Quartier Blanc</gco:CharacterString></gmd:deliveryPoint>
+<gmd:city><gco:CharacterString>Strasbourg</gco:CharacterString></gmd:city>
+<gmd:postalCode><gco:CharacterString>67964</gco:CharacterString></gmd:postalCode>
+<gmd:electronicMailAddress><gco:CharacterString>denis.schwab@cg67.fr</gco:CharacterString></gmd:electronicMailAddress>
+</gmd:CI_Address></gmd:address>
+</gmd:CI_Contact></gmd:contactInfo>
+<gmd:role><gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode></gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:resourceMaintenance>
+<gmd:MD_MaintenanceInformation>
+<gmd:maintenanceAndUpdateFrequency>
+<gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="irregular">irregular</gmd:MD_MaintenanceFrequencyCode>
+</gmd:maintenanceAndUpdateFrequency>
+</gmd:MD_MaintenanceInformation>
+</gmd:resourceMaintenance>
+<gmd:graphicOverview>
+<gmd:MD_BrowseGraphic>
+<gmd:fileName>
+<gco:CharacterString>http://sigeo.bas-rhin.fr/metadonnees/image/ZHR.jpg</gco:CharacterString>
+</gmd:fileName>
+<gmd:fileDescription>
+<gco:CharacterString>Extrait de carte pr&#233;sentant les zones humides remarquables.</gco:CharacterString>
+</gmd:fileDescription>
+<gmd:fileType>
+<gco:CharacterString>.jpg</gco:CharacterString>
+</gmd:fileType>
+</gmd:MD_BrowseGraphic>
+</gmd:graphicOverview>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Zones naturelles, paysages, &#233;cosyst&#232;mes</gco:CharacterString></gmd:keyword>
+<gmd:type><gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" /></gmd:type>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString>GEMET</gco:CharacterString></gmd:title>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>D&#233;partement du Bas-Rhin (67)</gco:CharacterString></gmd:keyword>
+<gmd:type><gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place" /></gmd:type>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString>Localisation</gco:CharacterString></gmd:title>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>G&#233;oportail</gco:CharacterString></gmd:keyword>
+<gmd:type><gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" /></gmd:type>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Donn&#233;es ouvertes</gco:CharacterString></gmd:keyword>
+<gmd:type><gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" /></gmd:type>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Habitats et biotopes</gco:CharacterString></gmd:keyword>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString></gmd:title>
+<gmd:date><gmd:CI_Date>
+<gmd:date><gco:Date>2008-06-01</gco:Date></gmd:date>
+<gmd:dateType><gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode></gmd:dateType>
+</gmd:CI_Date></gmd:date>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords><gmd:MD_Keywords>
+<gmd:keyword><gco:CharacterString>Zones de gestion, de restriction ou de r&#233;glementation et unit&#233;s de d&#233;claration</gco:CharacterString></gmd:keyword>
+<gmd:thesaurusName><gmd:CI_Citation>
+<gmd:title><gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString></gmd:title>
+<gmd:date><gmd:CI_Date>
+<gmd:date><gco:Date>2008-06-01</gco:Date></gmd:date>
+<gmd:dateType><gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode></gmd:dateType>
+</gmd:CI_Date></gmd:date>
+</gmd:CI_Citation></gmd:thesaurusName>
+</gmd:MD_Keywords></gmd:descriptiveKeywords>
+<gmd:resourceConstraints><gmd:MD_Constraints>
+<gmd:useLimitation><gco:CharacterString>Licence ouverte "Etalab" (octobre 2011) - cf. document associ&#233;</gco:CharacterString></gmd:useLimitation>
+</gmd:MD_Constraints></gmd:resourceConstraints>
+<gmd:resourceConstraints><gmd:MD_LegalConstraints>
+<gmd:accessConstraints>
+<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+</gmd:accessConstraints>
+<gmd:useConstraints>
+<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+</gmd:useConstraints>
+<gmd:otherConstraints><gco:CharacterString>Pas de restriction d&#8217;acc&#232;s public selon INSPIRE</gco:CharacterString></gmd:otherConstraints>
+</gmd:MD_LegalConstraints></gmd:resourceConstraints>
+<gmd:resourceConstraints><gmd:MD_SecurityConstraints><gmd:classification>
+<gmd:MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+</gmd:classification></gmd:MD_SecurityConstraints></gmd:resourceConstraints>
+<gmd:spatialRepresentationType>
+<gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+</gmd:spatialRepresentationType>
+<gmd:spatialResolution><gmd:MD_Resolution>
+<gmd:equivalentScale><gmd:MD_RepresentativeFraction>
+<gmd:denominator><gco:Integer>25000</gco:Integer></gmd:denominator>
+</gmd:MD_RepresentativeFraction></gmd:equivalentScale>
+</gmd:MD_Resolution></gmd:spatialResolution>
+<gmd:language>
+<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre">fre</gmd:LanguageCode>
+</gmd:language>
+<gmd:characterSet><gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode></gmd:characterSet>
+<gmd:topicCategory><gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode></gmd:topicCategory>
+<gmd:topicCategory><gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode></gmd:topicCategory>
+<gmd:extent><gmd:EX_Extent>
+<gmd:description><gco:CharacterString>D&#233;partement du Bas-Rhin</gco:CharacterString></gmd:description>
+<gmd:geographicElement><gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude><gco:Decimal>6</gco:Decimal></gmd:westBoundLongitude>
+<gmd:eastBoundLongitude><gco:Decimal>8</gco:Decimal></gmd:eastBoundLongitude>
+<gmd:southBoundLatitude><gco:Decimal>48</gco:Decimal></gmd:southBoundLatitude>
+<gmd:northBoundLatitude><gco:Decimal>49</gco:Decimal></gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox></gmd:geographicElement>
+</gmd:EX_Extent></gmd:extent>
+<gmd:extent><gmd:EX_Extent>
+<gmd:description><gco:CharacterString>Date de validit&#233; de la fiche de m&#233;tadonn&#233;es version 1</gco:CharacterString></gmd:description>
+<gmd:temporalElement><gmd:EX_TemporalExtent>
+<gmd:extent><ns4:TimePeriod ns4:id="TemporalId_1" xsi:type="gml:TimePeriodType">
+<ns4:beginPosition>2013-08-31</ns4:beginPosition>
+<ns4:endPosition>2014-08-31</ns4:endPosition>
+</ns4:TimePeriod></gmd:extent>
+</gmd:EX_TemporalExtent></gmd:temporalElement>
+</gmd:EX_Extent></gmd:extent>
+<gmd:extent><gmd:EX_Extent>
+<gmd:description><gco:CharacterString>Date de validit&#233; de la fiche de m&#233;tadonn&#233;es version 2</gco:CharacterString></gmd:description>
+<gmd:temporalElement><gmd:EX_TemporalExtent>
+<gmd:extent><ns4:TimePeriod ns4:id="TemporalId_2" xsi:type="gml:TimePeriodType">
+<ns4:beginPosition>2014-09-01</ns4:beginPosition>
+<ns4:endPosition>2015-08-31</ns4:endPosition>
+</ns4:TimePeriod></gmd:extent>
+</gmd:EX_TemporalExtent></gmd:temporalElement>
+</gmd:EX_Extent></gmd:extent>
+</gmd:MD_DataIdentification></gmd:identificationInfo>
+<gmd:distributionInfo><gmd:MD_Distribution>
+<gmd:transferOptions><gmd:MD_DigitalTransferOptions>
+<gmd:onLine><gmd:CI_OnlineResource>
+<gmd:linkage><gmd:URL>http://cigalsace.org/geoserver/CG67/wms</gmd:URL></gmd:linkage>
+<gmd:protocol><gco:CharacterString>OGC:WMS</gco:CharacterString></gmd:protocol>
+<gmd:name><gco:CharacterString>CG67_ZHR_BR_25000_CC48</gco:CharacterString></gmd:name>
+<gmd:description><gco:CharacterString>Zones humides remarquables.</gco:CharacterString></gmd:description>
+</gmd:CI_OnlineResource></gmd:onLine>
+<gmd:onLine><gmd:CI_OnlineResource>
+<gmd:linkage><gmd:URL>http://cigalsace.org/geoserver/CG67/wfs</gmd:URL></gmd:linkage>
+<gmd:protocol><gco:CharacterString>OGC:WFS</gco:CharacterString></gmd:protocol>
+<gmd:name><gco:CharacterString>CG67_ZHR_BR_25000_CC48</gco:CharacterString></gmd:name>
+<gmd:description><gco:CharacterString>Zones humides remarquables.</gco:CharacterString></gmd:description>
+</gmd:CI_OnlineResource></gmd:onLine>
+<gmd:onLine><gmd:CI_OnlineResource>
+<gmd:linkage><gmd:URL>http://sigeo.bas-rhin.fr/metadonnees/document/Licence-Ouverte-Open-Licence.pdf</gmd:URL></gmd:linkage>
+<gmd:name><gco:CharacterString>Lien vers Licence ouverte "Etalab"</gco:CharacterString></gmd:name>
+<gmd:description><gco:CharacterString>Lien vers la licence ouverte dite "Etalab" (version d'octobre 2011)</gco:CharacterString></gmd:description>
+</gmd:CI_OnlineResource></gmd:onLine>
+<gmd:onLine><gmd:CI_OnlineResource>
+<gmd:linkage><gmd:URL>http://sigeo.bas-rhin.fr/metadonnees/document/Inventaire_Zones_Humides.zip</gmd:URL></gmd:linkage>
+<gmd:protocol><gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString></gmd:protocol>
+<gmd:name><ns3:MimeFileType type="application/zip">Donn&#233;es au format TAB</ns3:MimeFileType></gmd:name>
+<gmd:description><gco:CharacterString /></gmd:description>
+</gmd:CI_OnlineResource></gmd:onLine>
+</gmd:MD_DigitalTransferOptions></gmd:transferOptions>
+</gmd:MD_Distribution></gmd:distributionInfo>
+<gmd:dataQualityInfo><gmd:DQ_DataQuality>
+<gmd:scope><gmd:DQ_Scope>
+<gmd:level><gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode></gmd:level>
+</gmd:DQ_Scope></gmd:scope>
+<gmd:lineage><gmd:LI_Lineage>
+<gmd:statement><gco:CharacterString>Inventaire non exhaustif, r&#233;alis&#233; &#224; partir de relev&#233;s de terrain, recherches bibliographiques et sur cartes.</gco:CharacterString></gmd:statement>
+</gmd:LI_Lineage></gmd:lineage>
+</gmd:DQ_DataQuality></gmd:dataQualityInfo>
+</gmd:MD_Metadata>

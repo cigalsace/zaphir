@@ -1,0 +1,52 @@
+﻿XSL CIGAL CI-IDA
+
+======
+ TODO
+======
+    EVOLUTIONS:
+    -
+    
+    BUGS:
+    - 
+    
+    A ETUDIER : 
+    - Affichage du logo du partenaire.
+
+
+==============
+ Version 0.4
+==============
+27/06/2012
+    - Adaptation css pour IE.
+
+==============
+ Version 0.3
+==============
+27/06/2012
+    - Adaptation code pour afficher logo si document associé au nom "logo" est présent dans la fiche.
+    - Concaténation des champs textuels relatifs à la qualité des données.
+    
+================
+ Version 0.2.01
+================
+10/03/2012
+    - Adaptation des tableaux.
+    - Correction de bugs mineurs.
+    
+==============
+ Version 0.2
+==============
+09/03/2012
+    - Evolution de la mise en page.
+    - Ajout de la possibilité via js de disposer d'une verison imprimable.
+    - Ajout de l'ensemble des champs du profil CIGAL.
+    - Adaptation de certains affichage.
+    - Correction de bugs mineurs.
+    - Ajout du KeywordTypeCode.
+    
+==============
+ Version 0.1
+==============
+08/03/2012
+    - Version 0.1 de ce format élaboré à partir des travaux de la CUS et du format "XSL-CIGAL_0.4_120305".
+        

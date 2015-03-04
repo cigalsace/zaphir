@@ -1,12 +1,13 @@
-#############
+##############
 ### Zaphir ###
-#############
+##############
 
 ======
  TODO
 ======
     EVOLUTIONS:
     - ajouter une vérification "isdigit()" sur la récupération des valeur d'identifiant pour les listes déroulantes grace à la fonction split().
+    - permettre la conversion des fichiers XLSX
     
     BUGS:
     - 
@@ -24,11 +25,18 @@
     - Copier l'ensemble des fichiers sources dans le dossier "dist"
     - Renommer et déplacer le dossier "dist"
     
+
+==============
+ Version 1.08
+==============
+16/09/14
+    - Initialisation de la version 1.08
+    - 
     
 ==============
  Version 1.07
 ==============
-09/04/13
+09/04/14
     - Suppression de MD_CntEmail et Data_CntEmail comme informations obligatoires pour les contacts. Un message d'erreur est tout de même généré en cas d'abscence de cette information.
     - Ajout de la gestion des icones de type de fichier pour les cartes (valeur de type "MAP:PDF" dans le champ protocole).
     - Ajout du champ "useConstraints", notamment pour la définition des conditions d'utilisation en licence ouverte. 

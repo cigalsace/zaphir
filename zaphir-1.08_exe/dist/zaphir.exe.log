@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "zaphir.py", line 38, in <module>
+  File "zaphir_module.pyo", line 63, in <module>
+IOError: [Errno 2] No such file or directory: 'config/codelists.cfg'
+Traceback (most recent call last):
+  File "zaphir.py", line 38, in <module>
+  File "zaphir_module.pyo", line 63, in <module>
+IOError: [Errno 2] No such file or directory: 'config/codelists.cfg'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "Tkinter.pyo", line 1470, in __call__
+  File "zaphir.py", line 449, in xls2xml
+  File "zaphir_module.pyo", line 106, in convert_xls2xml
+NameError: global name 'cellnames' is not defined
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "Tkinter.pyo", line 1470, in __call__
+  File "zaphir.py", line 482, in viewXmlFile
+IOError: [Errno 2] No such file or directory: 'Z:\\03_PROJETS_OPERATIONNELS\\METADONNEES\\GT_MD_CIGAL\\ScriptsPython\\zaphir\\zaphir-1.08_src\\zaphir-1.08_exe\\template\\CIGAL-CUS_2011_onglets\\TMP_viewXMLFile.xml'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "Tkinter.pyo", line 1470, in __call__
+  File "zaphir.py", line 482, in viewXmlFile
+IOError: [Errno 2] No such file or directory: 'Z:\\03_PROJETS_OPERATIONNELS\\METADONNEES\\GT_MD_CIGAL\\ScriptsPython\\zaphir\\zaphir-1.08_src\\zaphir-1.08_exe\\template\\CIGAL-CUS_2011_onglets\\TMP_viewXMLFile.xml'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "Tkinter.pyo", line 1470, in __call__
+  File "zaphir.py", line 482, in viewXmlFile
+IOError: [Errno 2] No such file or directory: 'Z:\\03_PROJETS_OPERATIONNELS\\METADONNEES\\GT_MD_CIGAL\\ScriptsPython\\zaphir\\zaphir-1.08_src\\zaphir-1.08_exe\\template\\CIGAL-CUS_2011_onglets\\TMP_viewXMLFile.xml'
