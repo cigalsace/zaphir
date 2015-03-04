@@ -1,0 +1,1 @@
+"C:\Users\ryckelynckg\Documents\02_LOGICIELS\Python\PortablePython2761\App\python.exe" %*

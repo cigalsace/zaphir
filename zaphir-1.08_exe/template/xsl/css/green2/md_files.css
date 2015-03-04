@@ -1,0 +1,55 @@
+/*h2 { margin: 0; padding: 0; }*/
+#md_files_search_form  fieldset { margin: 10px 0 15px 0;padding: 5px; width: auto; }
+#md_files_search_form  fieldset  legend { padding: 3px 10px 3px 3px; }
+#md_files_search_form label, #md_files_search_form input, #md_files_search_form select { display: inline; width: auto; float: none; margin: 0 5px 0 0;}
+#md_files_search_form label { margin: 0 0 0 15px; padding: 0;}
+#md_files_search_form .button { margin: 0 0 0 5px; float: none; }
+.date { width: 35%; }
+
+div.block { width: 98%; margin: 0 auto 0 auto; }
+div.block_right { width: 35%; margin: 0 auto 0 auto; }
+div.block_left { width: 64%; margin: 0 auto 0 auto; }
+
+/*tr td div { margin: 5px 0 5px 5px; }*/
+
+/*input.readonly, input.readonly:hover { color: #666; border: solid 1px #fff;}*/
+
+/* md_files_search */
+div.block_right { width: 64%; margin: 0 auto 0 auto; }
+div.block_left { width: 35%; margin: 0 auto 0 auto; }
+#last_files table { margin: 5px 0 15px 0; }
+
+p#md_files_statistics {
+    margin: 10px 0 0 5px;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+p#md_files_statistics span.number {
+    font-weight: bold;
+}
+
+
+#search_form p {
+    /*float:left;*/
+    /*height: auto;*/
+}
+
+#search_form label {
+    /*text-align: left;*/
+    width: 100px;
+}
+/*
+#search_form input {
+    width: 200px;
+}
+#search_form input.button {
+    width: auto;
+}
+*/
+
+
+/* md_files_form */
+/*
+#md_files_form div.block_right { width: 48%; margin: 0 auto 0 auto; }
+#md_files_form div.block_left { width: 48%; margin: 0 auto 0 auto; }
+*/

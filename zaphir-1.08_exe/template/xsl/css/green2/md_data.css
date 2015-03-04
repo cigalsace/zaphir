@@ -1,0 +1,25 @@
+
+table#tabTypeDonnee, table#repSpa {
+    margin-left: 1%;
+	width: 75%;
+	border: #CCC 0px solid;
+    float: left;
+}
+table#tabTypeDonnee td, table #tabTypeDonnee tr,
+table#repSpa td, table #repSpa tr  {
+    border: #CCC 0px solid;
+    background-color: #fff;
+}
+table#tabTypeDonnee label, table#tabTypeDonnee label:hover,
+table#repSpa label, table#repSpa label:hover {
+	width:100%;
+    background-color: #fff;
+}
+table#tabTypeDonnee label:hover, table#repSpa label:hover {
+    font-weight: normal;
+	cursor: pointer;
+}
+table#tabSpatialRepType {
+    border: #CCC 1px solid;
+}
+

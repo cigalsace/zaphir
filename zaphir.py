@@ -15,7 +15,7 @@ __author__ = "Guillaume Ryckelynck"
 __copyright__ = "Copyright 2011, Guillaume Ryckelynck"
 __credits__ = ["Guillaume Ryckelynck"]
 __license__ = "GPL"
-__version__ = "1.06"
+__version__ = "1.08"
 __maintainer__ = "Guillaume Ryckelynck"
 __email__ = "guillaume@ryckelynck.info"
 __status__ = "Production"
@@ -44,7 +44,7 @@ except ImportError, e:
 
 ### Initialisation des variables ###
 APP_NAME = "Zaphir"
-APP_VERSION = "1.06"
+APP_VERSION = "1.08"
 PATH_SCRIPT = os.getcwd()
 FILE_CFG = os.path.join(PATH_SCRIPT, 'config', 'zaphir.cfg')
 #FILE_CODES = os.path.join(PATH_SCRIPT, 'config', 'codes.cfg')
@@ -260,8 +260,12 @@ class Zaphir_Window(Frame):
         ''' List of XLS metadata files '''
         # Get list of files
         XLS_DIR = self.ent_destXlsDirectory.get()
-        fichiers=[]
-        f = glob.glob(os.path.join(XLS_DIR,'*.xls'))
+        ext = ('*.xls', '*.xlsx')
+        f = []
+        fichiers = []
+        for e in ext:
+            f.extend(glob.glob(os.path.join(XLS_DIR, e)))
+        # f = glob.glob(os.path.join(XLS_DIR,'*.xls*'))
         for i in f:
             if os.path.isfile(i): fichiers.append(i)
 
